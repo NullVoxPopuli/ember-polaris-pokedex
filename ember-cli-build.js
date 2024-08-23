@@ -21,6 +21,15 @@ module.exports = async function (defaults) {
         package: 'qunit',
       },
     ],
-    staticAppPaths: ['data-worker'],
+    staticAppPaths: [
+      'data-worker',
+      'components',
+      'helpers',
+      'routes',
+      'schemas',
+      // 'services',
+      'templates',
+      'utils',
+    ],
   });
 };
